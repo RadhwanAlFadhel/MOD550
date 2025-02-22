@@ -1,0 +1,14 @@
+{
+    "random_data": {
+        "description": "Random 2D dataset with 100 points.",
+        "generated_by": "DatasetGenerator.generate_random_2d"
+    },
+    "noisy_data": {
+        "description": "Noisy dataset around the function y = x^2.",
+        "generated_by": "DatasetGenerator.generate_noisy_function"
+    },
+    "combined_data": {
+        "description": "Combined dataset of random and noisy data.",
+        "generated_by": "DatasetGenerator.append_datasets"
+    }
+}
